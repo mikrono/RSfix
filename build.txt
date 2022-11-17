@@ -1,0 +1,8 @@
+displayName = replace_string_fix
+author = fe
+version = 0.1
+sortAfter = _ReplaceString_
+modReferences = _ReplaceString_
+hideCode = true
+includeSource = true
+side = Client
