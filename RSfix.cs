@@ -71,7 +71,7 @@ namespace RSfix
             });
 
             c.GotoPrev(MoveType.Before, i => i.MatchLdstr("^(?:{|}|\\[|\\]|:|,|\"|')"));
-            string new_pattern = @"{|}|\\|\[|\]|:|,|""|'";
+            string new_pattern = @"^({|}|\\|\[|\]|:|,|""|')";
             c.Next.Operand = new_pattern;
         }
 
